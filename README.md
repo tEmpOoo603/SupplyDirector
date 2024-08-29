@@ -1,6 +1,6 @@
 - Склонируйте репозиторий и установите зависимости "pip install -r requirements.txt"-
 - Создайте в postgresql пользователя с именем "root" и паролем "root", а также выдайте все разрешение
-- Создайте базу данных postgresql с именем "event_calendar" и владельцем - root
+- Создайте базу данных postgresql с именем "file_system" и владельцем - root
 - По умолчанию сервер postgresql запускается на локалхосте на порте 5432
 - Примените все миграции "python manage.py migrate"
 - Создайте суперпользователя для доступа к админке python manage.py createsuperuser
